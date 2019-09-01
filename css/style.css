@@ -1,0 +1,395 @@
+@font-face {
+    font-family: berthold;
+    src: url(../Fonts/Berthold.otf);
+}
+
+@font-face {
+    font-family: silka;
+    src: url(../Fonts/Silka-Regular.otf);
+}
+
+html, body {
+    width: 100%;
+    height: 100%;  
+    overflow-x:hidden;
+    scroll-behavior: smooth;
+}
+
+a {
+    list-style: none !important;
+    color:black !important;
+}
+.berth {
+    font-family: berthold;
+    letter-spacing: 1px;
+}
+
+/*========== presenting screen ================*/
+
+.present {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 100vh;
+    background: #191A1E;
+    z-index: 111111;
+}
+
+/*========== Hamburger ==========*/
+header {
+    width: 100%;
+    height: 77px;
+    background: transparent;
+    position: fixed;
+    top: 0px;
+    z-index:1111;
+}
+p {
+    font-family: berthold;
+    margin-top: 30px;
+}
+.logo {
+    position: fixed;
+    top: 20px;
+    left: 30px;
+    font-family: silka;
+    font-size: 1.5rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+    color: #121212;
+}
+#hamburger {
+    width: 44px;
+    height: 44px;
+    max-width: 44px;
+    max-height: 44px;
+    z-index: 1111;
+    position: fixed;
+    padding: 12px 12px;
+    top: 20px;
+    right: 60px;
+    margin: auto;
+    border-radius: 50%;
+    background:url(../images/leather.jpg);
+    background-size: cover;
+    cursor: pointer;
+}
+.line:nth-child(1) {
+    width: 50%;
+    margin: 5px 0px;
+    background: #a1a1a7;
+}
+.line {
+    display: inline-block;
+    margin:auto;
+    content: "";
+    margin:5px auto;
+    height: 1px;
+    width: 100%;
+    background: #d6d6d8;
+    display: block;
+}
+.line:nth-child(3) {
+    width: 50%;
+    margin: 5px 10px;
+    background: #a1a1a7;
+
+}
+.sideNav {
+    width: 0px;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    left: 0px;
+    top: 0px;
+    z-index: 111;
+    background: #191A1E;
+}
+
+.socialMedia {
+    position: fixed;
+    top: 44vh;
+    left: 30px;
+    z-index: 11;
+    
+}
+
+.socialMedia ul li {
+    margin-top: 10px;
+}
+
+/*========== section1 ============*/
+
+#section1 {
+    width: 100vw;
+}
+.titleSmall {
+    text-transform: uppercase;
+    font-family: berthold;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: rgba(25, 26, 30, 0.4);
+    margin-top: 35vh;
+}
+
+.title {
+    font-family: berthold;
+    font-weight: 400px;
+    letter-spacing: normal;
+}
+
+.gold {
+    color: #A58861;
+}
+
+.sup {
+    font-size: 1rem;
+}
+
+#work {
+    padding: 18px 40px;
+    border-radius: 40px;
+    background: #121212;
+    color: white !important;
+    border: transparent;
+    font-family: berthold;
+    letter-spacing: 2px;
+    cursor: pointer;
+    z-index:11;
+    font-size:1rem;
+}
+
+#work a {
+    color: white !important;
+}
+#work:hover {
+    transition: all 0.3s ease-in-out;
+    background: #2196f3;
+    color: white;
+}
+
+/*=========== section2 ============*/
+#section2 {
+    width: 100%;
+    position: relative;
+    background: #191A1E;
+}
+
+.myImg {
+    float: left;
+}
+#imgArrow {
+    position: relative;
+    top: -26vh;
+}
+.downArrow {    
+    margin: 0 auto;
+    position: relative;
+    top: 30px;
+    z-index: 11;
+    width: 80px;
+    height: 80px;
+    background: #A58861 url(../images/down.png) center center no-repeat;
+    display: block;
+    transition: all 0.3s ease;
+
+}
+
+.text {
+    margin-top: -80px;
+    font-family: berthold;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+}
+
+.smallText {
+    font-family: silka;
+    font-size: 1.2rem;
+    letter-spacing: normal;
+    font-weight: 300;
+}
+.downArrow:hover {
+    background: #A58861 url(../images/down.png) center 58% no-repeat;
+    transition: all 0.3s ease;
+}
+
+.goldText {
+    font-family: berthold;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #A58861;
+    margin-top: -30px;
+}
+
+/*=========== section3 ===========*/
+
+#section3 {
+    width: 100vw;
+    position: relative;
+    border-bottom:1px solid rgba(25, 26, 30, 0.15);
+
+}
+
+.button {
+    padding: 20px 40px;
+    color: black;
+    border:1px solid rgba(25, 26, 30, 0.15);
+    background: transparent;
+    border-radius: 30px;
+    margin-left: 30px;
+    font-size: 1rem;
+}
+
+h4.berth {
+    font-size: 1.75rem;
+    font-weight: 400;
+    
+}
+
+/*=========== section4 ===========*/
+
+#section4 {
+    width: 100%;
+    border-bottom:1px solid rgba(25, 26, 30, 0.15);
+}
+
+.F8795D {
+    margin-top: 40px;
+    background: #F8795D;
+    width: 100%;
+    height: 100%;
+}
+
+.design {
+    font-size: 1.8rem;
+}
+
+.footer {
+    width: 100%;
+    height: 15vh;
+    background: #191A1E;
+}
+.footer p {
+    color: white;
+    font-family: berthold;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+/*=========== contact page ===========*/
+#contact {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(
+        to right, 
+        white 0%, 
+        white 50%, 
+        #191A1E 50%, 
+        #191A1E 100%
+      );
+}
+
+.greySmall {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-family: berthold;
+    color: #a1a1a7;
+}
+.greylarge {
+    font-family: berthold;
+    font-size: 3rem;
+}
+
+.whiteLarge {
+    text-align: center;
+    margin-top: 40vh;
+    color: white;
+    font-family: berthold;
+    font-size: 2rem;
+}
+/*=========== spacings ===========*/
+
+.spacing10 {
+    margin-top: 10vh;
+}
+.spacing40 {
+    margin-top: 40vh;
+}
+
+.spacing20 {
+    margin-top: 20vh;
+}
+.bottom80 {
+    padding-bottom: 80px;
+}
+.bottom20 {
+    padding-bottom:20vh;
+}
+
+/*========== about page ==============*/
+
+/*========= abt1 ===============*/
+
+.abtTitle {
+    margin-top: 40vh;
+    font-family: berthold;
+    font-size: 4rem;
+    color:#fa5959;
+}
+
+.number {
+    font-family: berthold;
+    font-size: 10rem;
+}
+
+.projectName {
+    margin-top: -20vh;
+    font-family: berthold;
+    font-size: 4rem;
+}
+
+
+.numberSmall {
+    font-family: berthold;
+    font-size: 4rem;
+}
+
+.box {
+    width: 400px;
+    height: 500px;
+    background: #a1a1a7;
+}
+
+.projectNameSmall {
+    margin-top: -10vh;
+    font-family: berthold;
+    font-size: 3rem;
+}
+.projectText {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/*========== about2 =================*/
+
+.abt2 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+/*========== about3 =================*/
+
+.abt3 {
+    width: 100%;
+    height: 100vh;
+}
+/*========== media queries ==========*/
+
+@media only screen and (max-width: 750px) {
+    
+}
+
